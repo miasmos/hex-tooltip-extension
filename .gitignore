@@ -1,0 +1,9 @@
+node_modules
+.npmrc
+scripts/locales
+coverage
+.nyc_output
+docs
+dist
+*.zip
+yarn-error.log

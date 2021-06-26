@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "default_locale": "en",
+    "name": "//autofilled by script",
+    "description": "//autofilled by script",
+    "content_security_policy": "script-src 'self'; object-src 'self'",
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": ["declarativeContent"],
+    "version": "//autofilled by script",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
