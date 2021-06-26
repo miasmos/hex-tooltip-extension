@@ -1,12 +1,19 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const path = require("path");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
+const FileManagerPlugin = require("filemanager-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const pkg = require("./package.json");
+
+const zipName = `${pkg.name}-v${pkg.version}.zip`;
 
 // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 module.exports = (config, argv) => ({
-    entry: { background: "./src/background.ts", content: "./src/content.ts" },
+    entry: {
+        background: "./src/background.ts",
+        content: "./src/content.ts",
+    },
     resolve: {
         extensions: [".ts", ".js"],
     },
@@ -37,7 +44,18 @@ module.exports = (config, argv) => ({
         path: path.resolve(__dirname, "./dist"),
     },
     plugins: [
-        new CleanWebpackPlugin(),
+        new CleanWebpackPlugin({
+            cleanOnceBeforeBuildPatterns: ["!manifest.json"],
+            dry: true,
+            verbose: true,
+        }),
         new CopyPlugin({ patterns: [{ from: "images", to: "." }] }),
+        new FileManagerPlugin({
+            events: {
+                onEnd: {
+                    archive: [{ source: "dist", destination: `dist/${zipName}` }],
+                },
+            },
+        }),
     ],
 });

@@ -1,15 +1,16 @@
 {
     "name": "hex-tooltip-extension",
     "fullName": "Hex: Tooltip",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Tooltips for Dead by Daylight anywhere on the web.",
     "scripts": {
-        "start": "webpack --mode=production",
-        "dev": "webpack --mode=development --watch",
+        "start": "yarn manifest && webpack --mode=production",
+        "dev": "yarn manifest && webpack --mode=development --watch",
         "test": "nyc ts-mocha --reporter min --require @babel/register \"./test/**/*.ts\"",
         "coverage": "nyc --reporter=lcov yarn test",
         "snyk": "snyk protect",
-        "deploy": "yarn start && yarn test && yarn publish"
+        "manifest": "node scripts/manifest.js",
+        "deploy": "yarn snyk && yarn start && yarn test && yarn publish"
     },
     "repository": {
         "type": "git",
@@ -21,7 +22,9 @@
         "url": "https://github.com/stephenpoole/hex-tooltip-extension/issues"
     },
     "homepage": "https://github.com/stephenpoole/hex-tooltip-extension#readme",
-    "dependencies": {},
+    "dependencies": {
+        "@stephenpoole/hex-tooltip": "^1.0.0"
+    },
     "devDependencies": {
         "@babel/core": "^7.14.6",
         "@babel/preset-env": "^7.14.7",
@@ -44,6 +47,7 @@
         "eslint-config-airbnb-base": "^14.1.0",
         "eslint-loader": "^4.0.0",
         "eslint-plugin-import": "^2.16.0",
+        "filemanager-webpack-plugin": "^6.1.2",
         "mocha": "^5.2.0",
         "nyc": "^15.1.0",
         "snyk": "^1.639.0",
