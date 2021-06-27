@@ -10,7 +10,7 @@ const test = (element: Element, hasDomNode: boolean, hasText: boolean) => {
 
 const traverse = (): void => {
     const elements = document.getElementsByTagName("*");
-    const regex = new RegExp(/\[\[([a-zA-Z0-9:\-\s]*)\]\]/g);
+    const regex = new RegExp(/\[\[([^<>]+)\]\])/g);
     const len = elements.length;
     const textAdjacentNodes = [];
 
