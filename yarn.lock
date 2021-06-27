@@ -1438,10 +1438,10 @@
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-"@stephenpoole/hex-tooltip@^1.0.10":
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/@stephenpoole/hex-tooltip/-/hex-tooltip-1.0.10.tgz#f32daf4b3c94a5e853b7b57d0002789221781df0"
-  integrity sha512-PpTE6/JSlLft2uF4bFeMsG9arBqM4Maxp2bxoiqcl+/Elgqf40UbYmuplrWuRtxmEaJFzWH7s0cY3FWMFpVrmQ==
+"@stephenpoole/hex-tooltip@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@stephenpoole/hex-tooltip/-/hex-tooltip-1.0.11.tgz#cbc609eb429c566a70f12ae88aa45afc380b13aa"
+  integrity sha512-/FCKsdfZpg4XKe/l/o290Wy2+ug/pHN2QpOUxee+kNru/9LKeyT5QTPb0zX2GR1MoydignKA6OG15L3HhiV3/A==
   dependencies:
     "@stephenpoole/deadbydaylight" "^5.0.114"
     "@tippyjs/react" "^4.2.5"
