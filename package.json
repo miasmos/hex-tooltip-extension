@@ -6,7 +6,7 @@
     "scripts": {
         "start": "yarn manifest && webpack --mode=production",
         "dev": "yarn manifest && webpack --mode=development --watch",
-        "test": "nyc ts-mocha --reporter min --require @babel/register \"./test/**/*.ts\"",
+        "test": "yarn manifest && nyc ts-mocha --reporter min --require @babel/register \"./test/**/*.ts\"",
         "coverage": "nyc --reporter=lcov yarn test",
         "snyk": "snyk protect",
         "manifest": "node scripts/manifest.js",
