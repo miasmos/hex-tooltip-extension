@@ -1,8 +1,6 @@
 # Hex: Tooltip
 
 [![Known Vulnerabilities](https://snyk.io/test/github/stephenpoole/hex-tooltip-extension/badge.svg)](https://snyk.io/test/github/stephenpoole/hex-tooltip-extension)
-[![Build Status](https://travis-ci.com/stephenpoole/hex-tooltip-extension.svg?branch=master)](https://travis-ci.com/stephenpoole/hex-tooltip-extension)
-[![codecov](https://codecov.io/gh/stephenpoole/hex-tooltip-extension/branch/master/graph/badge.svg?token=lTWudhhmb0)](https://codecov.io/gh/stephenpoole/hex-tooltip-extension)
 ![last commit](https://img.shields.io/github/last-commit/stephenpoole/hex-tooltip-extension)
 ![issues](https://img.shields.io/github/issues/stephenpoole/hex-tooltip-extension)
 
