@@ -6,6 +6,8 @@
 
 Tooltips for Dead by Daylight anywhere on the web.
 
+[hextooltip.com](https://hextooltip.com)
+
 ## License
 
 MIT License
