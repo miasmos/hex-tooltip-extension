@@ -37,7 +37,7 @@ module.exports = (config, argv) => ({
             ],
         },
     }),
-    devtool: "source-map",
+    ...(argv.NODE_ENV === "development" && { devtool: "source-map" }),
     target: "web",
     output: {
         filename: "[name].js",
@@ -47,8 +47,6 @@ module.exports = (config, argv) => ({
     plugins: [
         new CleanWebpackPlugin({
             cleanOnceBeforeBuildPatterns: ["!manifest.json"],
-            dry: true,
-            verbose: true,
         }),
         new CopyPlugin({ patterns: [{ from: "images", to: "." }] }),
         new FileManagerPlugin({

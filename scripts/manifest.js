@@ -7,7 +7,10 @@ manifest.name = pkg.fullName;
 manifest.description = pkg.description;
 manifest.version = pkg.version;
 
-fs.writeFileSync(
-    path.resolve(__dirname, "../dist/manifest.json"),
-    JSON.stringify(manifest, undefined, 4)
-);
+const dest = path.resolve(__dirname, "../dist");
+fs.stat(dest, (error, stat) => {
+    if (!stat) {
+        fs.mkdirSync(dest);
+    }
+    fs.writeFileSync(path.resolve(dest, "./manifest.json"), JSON.stringify(manifest, undefined, 4));
+});
