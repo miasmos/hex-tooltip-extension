@@ -1431,21 +1431,22 @@
     tslib "^2.0.0"
     upath "2.0.1"
 
-"@stephenpoole/deadbydaylight@^5.0.114":
-  version "5.0.114"
-  resolved "https://registry.yarnpkg.com/@stephenpoole/deadbydaylight/-/deadbydaylight-5.0.114.tgz#ba65be2c2755b7ab79b03c3a56592d2be9528cfd"
-  integrity sha512-/tTxkkqrlxaMJM9lLhUm3VI16ZEAgdd+rFGsA5sQ7664Vzgdo9wsB6GnMSvsti+GRu3pV1cOlOHcSXfMQUukCw==
+"@stephenpoole/deadbydaylight@^5.0.115":
+  version "5.0.115"
+  resolved "https://registry.yarnpkg.com/@stephenpoole/deadbydaylight/-/deadbydaylight-5.0.115.tgz#34bc310789b04a2b26a6b8c3f9664f9dea32ba7d"
+  integrity sha512-lAV0qivQBNAKG/aU8w8p8xavjkgytou24RmVHiSUid5EIoTB/8TP6dIdZixW0mMaZ34ap37/OmxEOfCHdrBklw==
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-"@stephenpoole/hex-tooltip@^1.0.13":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@stephenpoole/hex-tooltip/-/hex-tooltip-1.0.13.tgz#6243ea8a0d080380659712bd9aed30fe0dc8ad3b"
-  integrity sha512-+U+PCd/pu7Tu7E/PMTqRHzqqD5fGKLCmRgMGKOhltzuMRjqTAj+cYs124T9HkY1jyp3c5KcbCgUq6q4l3Bqjaw==
+"@stephenpoole/hex-tooltip@^1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@stephenpoole/hex-tooltip/-/hex-tooltip-1.0.14.tgz#152135b201bbb6108f5c2048970ca367635ffef7"
+  integrity sha512-lmFhoMrbdc2wl0oFADo8+7haZLGFe7BWjJo3ug99Feh1njtQ8DeEQBewo9N97d84kgSaq+bNcnuCCrKzzP+Jqw==
   dependencies:
-    "@stephenpoole/deadbydaylight" "^5.0.114"
+    "@stephenpoole/deadbydaylight" "^5.0.115"
     "@tippyjs/react" "^4.2.5"
     i18next "^20.3.2"
+    lodash "^4.17.21"
     react "^17.0.2"
     react-dom "^17.0.2"
     react-i18next "^11.11.0"
@@ -5292,7 +5293,7 @@ lodash.values@^4.3.0:
   resolved "https://registry.yarnpkg.com/lodash.values/-/lodash.values-4.3.0.tgz#a3a6c2b0ebecc5c2cba1c17e6e620fe81b53d347"
   integrity sha1-o6bCsOvsxcLLocF+bmIP6BtT00c=
 
-lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19:
+lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
