@@ -23,7 +23,7 @@
     },
     "homepage": "https://github.com/stephenpoole/hex-tooltip-extension#readme",
     "dependencies": {
-        "@stephenpoole/hex-tooltip": "^1.0.17"
+        "@stephenpoole/hex-tooltip": "^1.0.19"
     },
     "devDependencies": {
         "@babel/core": "^7.14.6",
