@@ -1431,19 +1431,19 @@
     tslib "^2.0.0"
     upath "2.0.1"
 
-"@stephenpoole/deadbydaylight@^5.0.20":
-  version "5.0.20"
-  resolved "https://registry.yarnpkg.com/@stephenpoole/deadbydaylight/-/deadbydaylight-5.0.20.tgz#851edc9caa76c21fb6af4815c764114d1ef92f95"
-  integrity sha512-oUFdNsVLliJECdmdC1xtcynIZ4TjpEv53z3cDQWLuV+hO42UhgJVJLExQol5MRDDDhkPq085kMp141vlUcFZCw==
+"@stephenpoole/deadbydaylight@^5.0.22":
+  version "5.0.22"
+  resolved "https://registry.yarnpkg.com/@stephenpoole/deadbydaylight/-/deadbydaylight-5.0.22.tgz#7195fb0327b9695268ac01f3a98cf5f7ac7ee94e"
+  integrity sha512-tjzRCne2Op/QDt1ycKkdHCsQCKWk64vQuJjSJ3I0McBRvDqDroQVilb88om4SazzJg5zmrdUqq8K3ViO35FzCw==
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-"@stephenpoole/hex-tooltip@^1.0.19":
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/@stephenpoole/hex-tooltip/-/hex-tooltip-1.0.19.tgz#dc60e73c29458c900d3c8bdca4248bb202578ed3"
-  integrity sha512-CNv8h1nJrkVrXVMBBnKJSBSFn8q/AD6Ym5dYkT6uP/KCfJYrvGn0BZboVD/fPBRwdwK3cY0MehkDIEZHZWTBWg==
+"@stephenpoole/hex-tooltip@^1.0.20":
+  version "1.0.20"
+  resolved "https://registry.yarnpkg.com/@stephenpoole/hex-tooltip/-/hex-tooltip-1.0.20.tgz#406603f068051c954df307577b72b533fbb1bf02"
+  integrity sha512-IGcp5tEEJv1fyJhSlm77grIjE1WkrddHvDj0SQUsP3IEN9t/dMhpvx5+A7NtACPEqd29uQMc2kfNYTUL+/rOJQ==
   dependencies:
-    "@stephenpoole/deadbydaylight" "^5.0.20"
+    "@stephenpoole/deadbydaylight" "^5.0.22"
     "@tippyjs/react" "^4.2.5"
     i18next "^20.3.2"
     lodash "^4.17.21"
