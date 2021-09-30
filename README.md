@@ -1,3 +1,5 @@
+<img src="https://hextooltip.com/logo.svg" width="100" height="100"> 
+
 # Hex: Tooltip
 
 [![Known Vulnerabilities](https://snyk.io/test/github/stephenpoole/hex-tooltip-extension/badge.svg)](https://snyk.io/test/github/stephenpoole/hex-tooltip-extension)
