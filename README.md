@@ -8,7 +8,9 @@
 
 Tooltips for Dead by Daylight anywhere on the web.
 
-[hextooltip.com](https://hextooltip.com)
+<img src="https://hextooltip.com/ruin.jpg" > 
+
+[hextooltip.com](https://hextooltip.com)  
 
 ## License
 
