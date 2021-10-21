@@ -937,7 +937,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.14.8":
+"@babel/runtime@^7.15.3":
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.15.4.tgz#fd17d16bfdf878e6dd02d19753a39fa8a8d9c84a"
   integrity sha512-99catp6bHCaxr4sJ/DbTGgHS4+Rs2RVd2g7iOap6SLGPDknRK9ztKNsE/Fg6QhSeh1FGE5f6gHGQmvvn3I3xhw==
@@ -1438,19 +1438,20 @@
     tslib "^2.0.0"
     upath "2.0.1"
 
-"@stephenpoole/deadbydaylight@^5.2.1":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@stephenpoole/deadbydaylight/-/deadbydaylight-5.2.1.tgz#a02e01eac150aa6f77f4e75919685a6adf6ee199"
-  integrity sha512-z62PVrup/AhX0cmX5/MGiZ8z8KxjOC421UZ9hooDCzAYLRqHf2gsF0anpK8ickCrgcKZu1o4zinza6rUS8oQxA==
+"@stephenpoole/deadbydaylight@5.3.0":
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/@stephenpoole/deadbydaylight/-/deadbydaylight-5.3.0.tgz#38c5f96e8521982c29647e06d9da9849112c6b49"
+  integrity sha512-Rgjs6OzsHxGq19wTDFROM9AStRGPJ+Iv3pZgrgV4BKHsLKJx43f104ooksDhYUep7oaq75v13g13mgPd7KzfRw==
   dependencies:
-    "@babel/runtime" "^7.14.8"
+    "@babel/runtime" "^7.15.3"
+    fuse.js "^6.4.6"
 
-"@stephenpoole/hex-tooltip@^1.0.23":
-  version "1.0.23"
-  resolved "https://registry.yarnpkg.com/@stephenpoole/hex-tooltip/-/hex-tooltip-1.0.23.tgz#e9d84e1349bdd81a7a7549f953493b62c5b8b0c3"
-  integrity sha512-3n4fPJYWx6Sz1fv5jQpHo+raYE65pIEFe1Fsf4WXBPmxq0uxMZztlTzBVqPTZAZIGzygnXGMp/L0s36K7vbdKw==
+"@stephenpoole/hex-tooltip@^1.0.24":
+  version "1.0.24"
+  resolved "https://registry.yarnpkg.com/@stephenpoole/hex-tooltip/-/hex-tooltip-1.0.24.tgz#52f9e8b2d11b012c38fce738e456cd52f79505d8"
+  integrity sha512-MT59NHCfgSNT9yTRmxImmn6QFAd6CeoAXzM+O/CFCKWyKo1KfFcrFSMKaK6YzA5qTGkKwTZ9OxP58Y2P2KYm8g==
   dependencies:
-    "@stephenpoole/deadbydaylight" "^5.2.1"
+    "@stephenpoole/deadbydaylight" "5.3.0"
     "@tippyjs/react" "^4.2.5"
     i18next "^20.3.2"
     lodash "^4.17.21"
@@ -3897,6 +3898,11 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
+
+fuse.js@^6.4.6:
+  version "6.4.6"
+  resolved "https://registry.yarnpkg.com/fuse.js/-/fuse.js-6.4.6.tgz#62f216c110e5aa22486aff20be7896d19a059b79"
+  integrity sha512-/gYxR/0VpXmWSfZOIPS3rWwU8SHgsRTwWuXhyb2O6s7aRuVtHtxCkR33bNYu3wyLyNx/Wpv0vU7FZy8Vj53VNw==
 
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"

@@ -1,5 +1,7 @@
 import HexTooltip from "@stephenpoole/hex-tooltip";
 
+console.log(HexTooltip);
+
 const test = (element: Element, hasDomNode: boolean, hasText: boolean) => {
     const className = element.getAttribute("class");
     const wasMounted = className && className.includes("hex-tooltip");
