@@ -1,7 +1,7 @@
 {
     "name": "hex-tooltip-extension",
     "fullName": "Hex: Tooltip - Tooltips for Dead By Daylight",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Tooltips for Dead by Daylight anywhere on the web.",
     "scripts": {
         "start": "yarn manifest && webpack --mode=production",
