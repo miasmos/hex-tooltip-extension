@@ -1,7 +1,5 @@
 import HexTooltip from "@stephenpoole/hex-tooltip";
 
-console.log(HexTooltip);
-
 const test = (element: Element, hasDomNode: boolean, hasText: boolean) => {
     const className = element.getAttribute("class");
     const wasMounted = className && className.includes("hex-tooltip");
@@ -15,9 +13,29 @@ const traverse = (): void => {
     const regex = new RegExp(/\[\[([^<>]*?)\]\]/g);
     const len = elements.length;
     const textAdjacentNodes = [];
+    const blacklist = [
+        "script",
+        "head",
+        "meta",
+        "title",
+        "link",
+        "style",
+        "base",
+        "iframe",
+        "noscript",
+        "svg",
+        "img",
+    ];
 
     for (let i = 0; i < len; i += 1) {
         const element = elements[i];
+        const omit = blacklist.includes(element.tagName.toLowerCase());
+
+        if (omit) {
+            // eslint-disable-next-line no-continue
+            continue;
+        }
+
         const children = element.childNodes;
         let hasText = false;
         let hasDomNode = false;
