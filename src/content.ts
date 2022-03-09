@@ -1,4 +1,4 @@
-import HexTooltip from "@stephenpoole/hex-tooltip";
+import HexTooltip from "@moonswelle/hex-tooltip";
 
 const test = (element: Element, hasDomNode: boolean, hasText: boolean) => {
     const className = element.getAttribute("class");

@@ -6,6 +6,7 @@
     "content_scripts": [
         {
             "matches": ["*://*/*"],
+            "exclude_matches": ["*://hextooltip.com/*"],
             "js": ["content.js"],
             "run_at": "document_idle"
         }
