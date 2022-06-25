@@ -10,12 +10,6 @@ Tooltips for Dead by Daylight anywhere on the web.
 
 <img src="https://hextooltip.com/ruin.jpg" > 
 
-[hextooltip.com](https://hextooltip.com)  
-
-## Support
-
-To support the development of Hex: Tooltip, head over to [hextooltip.com](https://hextooltip.com) and click the Donate button. Any donations are greatly appreciated.
-
 ## License
 
 MIT License
